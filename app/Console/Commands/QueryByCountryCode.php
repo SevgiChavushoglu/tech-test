@@ -40,7 +40,7 @@ class QueryByCountryCode extends Command
             $this->info('No services found for the given country code.');
         } else {
 
-            $this->info('Services for country ' . $countryCode . ':');
+            $this->info('Services for country ' . $countryCode . ' (Total:' . count($services) . ')');
             $this->table($headers, $services);
         }
     }
