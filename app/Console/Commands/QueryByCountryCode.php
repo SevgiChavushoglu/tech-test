@@ -18,7 +18,7 @@ class QueryByCountryCode extends Command
      *
      * @var string
      */
-    protected $description = 'Returns the services that  are available in a specific country code';
+    protected $description = 'Returns the services that  are available in a specific country';
 
     /**
      * Execute the console command.
